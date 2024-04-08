@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>To Do application</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Main container -->
+    <div class="main">
+
+        <!-- Section for adding tasks -->
+        <div class="add-task">
+            <!-- Input field for adding tasks -->
+            <input type="text" id="add-text" placeholder="Enter task you wish to add">
+            <!-- Button to add tasks -->
+            <button id="add-btn">Add</button>
+        </div>
+
+        <!-- Section for displaying tasks -->
+        <div class="tasks">
+
+
+            <!-- Task 1 -->
+            <div class="task">
+                <!-- Input field for task 1 -->
+                <input type="text" value="sample task" readonly>
+                <!-- selecting priority for the tasks-->
+                <select id="priority-select">
+                    <option value="normal">Normal</option>
+                    <option value="high">High</option>
+                </select>
+                <!-- Button to delete task 1 -->
+                <button class="delete-btn">delete</button>
+                <!-- Button to delete task 1 -->
+                <button class="ongoing-btn">Ongoing</button>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- Link to external JavaScript file -->
+    <script src="main.js"></script>
+</body>
+
+</html>

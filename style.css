@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 130vh;
+    background-image: linear-gradient(to bottom,yellow,rgb(206, 178, 125));
+}
+.add-task{
+    margin-top: 100px;
+    width: 650px;
+    
+}
+.add-task input{
+    width: 89%;
+    height: 35px;
+    outline: none;
+    border: none;
+}
+.add-task #add-btn{
+    height:35px;
+    width: 10%;
+    outline: none;
+    border-radius: 10%;
+    background-color: rgb(48, 139, 223);
+}
+
+.tasks{
+    margin-top: 25px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.tasks input{
+    width: 70%;
+    height: 35px;
+    outline: none;
+    border: none;
+}
+.tasks select{
+   border: none;
+   outline: none;
+   width: 12%;
+   height: 30px;
+   font-size: small;
+}
+
+.tasks .delete-btn{
+    height:35px;
+    width: 12%;
+    outline: none;
+    border-radius: 10%;
+    background-color: rgb(213, 31, 61);
+}
+.task{
+    margin-top: 15px;
+}
+
+.tasks .ongoing-btn{
+    height:35px;
+    width: 12%;
+    outline: none;
+    border-radius: 10%;
+    background-color: rgb(35, 77, 215);
+}
+
